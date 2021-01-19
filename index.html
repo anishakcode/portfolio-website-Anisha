@@ -10,8 +10,8 @@
 </head>
 <body>
     <header>
-        <div id=header>
-            <img src="img/Logo.png" alt="Anisha Krottapalli">
+        <div class="container">
+            <img src="img/Logo.png" alt="Anisha Krottapalli" class="logo">
             <nav>
                 <ul>
                     <li><a href="index.html">Work</a></li>
@@ -22,50 +22,52 @@
         </div>
     </header>
     <main>
-        <div id=heading>
-            <div>
-              <h1>Anisha Krottapalli</h1>
-             <p> I am a <span>UI UX Designer</span> </p>
-             </div>
+        <div id="hero">
+            <div class="container">
+                <div>
+                    <h1>Anisha Krottapalli</h1>
+                    <p> I am a <span>UI UX Designer</span> </p>
+                </div>
+            </div>
         </div>
         <div id="work">
-            <div>
+            <div class="container">
                 <h2>My Work</h2>
-            </div>
-            <div>
-                <div> <!-- First Column -->
-                    <picture>
-                        <source srcset="img/VERZUZAssets/VerzuzProjectImage.png" media="(max-width:767px)">
-                        <img src="img/VERZUZAssets/VerzuzProjectImage@2x.png" alt="Verzuz Image"> 
-                    </picture>
+                <div class="row">
+                    <div> <!-- First Column -->
+                        <picture>
+                            <source srcset="img/VERZUZAssets/VerzuzProjectImage.png" media="(max-width:767px)">
+                            <img src="img/VERZUZAssets/VerzuzProjectImage@2x.png" alt="Verzuz Image"> 
+                        </picture>
+                    </div>
+                    <div> <!-- Second column -->
+                        <h3>Verzuz App Concept</h3>
+                        <p>
+                            An app concept for Verzuz by Timbaland and Swizz Beatz. This app will allow viewers to battle their friends with their playlists similar to the popular Verzuz battles 
+                        </p>
+                        <a href="#" class="button readmore"> Read more</a>
+                    </div>
                 </div>
-                <div> <!-- Second column -->
-                    <h3>Verzuz App Concept</h3>
-                    <p>
-                        An app concept for Verzuz by Timbaland and Swizz Beatz. This app will allow viewers to battle their friends with their playlists similar to the popular Verzuz battles 
-                    </p>
-                    <a href="#" class="button readmore"> Read more</a>
-                </div>
-            </div>
-            <div>
-                <div> <!-- First Column -->
-                    <picture>
-                        <source srcset="img/HomeAdviceAssets/HomeAdviceProjectImage.png" media="(max-width:767px)">
-                        <img src="img/HomeAdviceAssets/HomeAdviceProjectImage@2x.png" alt="HomeAdvice Image"> 
-                    </picture>
-                </div>
-                <div> <!-- Second column -->
-                    <h3>HomeAdvice App</h3>
-                    <p>
-                        HomeAdvice is an application that provides users with the ability to instantly connect with experts through chat, call, or video to get advice on home projects. This app is designed for homeowners of all different experiences who are seeking assistance and support in their home improvement DIY endeavors
-                    </p>
-                    <a href="#" class="button readmore"> Read more</a>
+                <div class="row">
+                    <div> <!-- First Column -->
+                        <picture>
+                            <source srcset="img/HomeAdviceAssets/HomeAdviceProjectImage.png" media="(max-width:767px)">
+                            <img src="img/HomeAdviceAssets/HomeAdviceProjectImage@2x.png" alt="HomeAdvice Image"> 
+                        </picture>
+                    </div>
+                    <div> <!-- Second column -->
+                        <h3>HomeAdvice App</h3>
+                        <p>
+                            HomeAdvice is an application that provides users with the ability to instantly connect with experts through chat, call, or video to get advice on home projects. This app is designed for homeowners of all different experiences who are seeking assistance and support in their home improvement DIY endeavors
+                        </p>
+                        <a href="#" class="button readmore"> Read more</a>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
 <footer id="Contact">
-    <div>
+    <div class="container">
         <h2>Get in Touch</h2>
         <p> Do you like my work and want to discuss opportunties? Please get in touch.</p>
         <div> <!--Mail Section-->
