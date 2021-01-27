@@ -1,15 +1,14 @@
 /*
 Colors used:
 Text Color: #000000
-Main Background Color (Black): #000000
+Main Background Color (White): #e0e0e0
 Section Color 1 (White): #FFFFFF
 Section Color 2 (Blue): #467C86
 */
 
-font-family: 'Open Sans', sans-serif;
 
 body {
-    background-color: #000000;
+    background-color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-size: 19px;
     font-weight: 400;
@@ -22,9 +21,11 @@ body {
 h1, h2, h3, h4 {
     line-height: 1.4;
 }
+
 h1 {
   font-size: 2.75em;
   font-weight: 700;
+  text-align: center;
 }
 
 h2 {
@@ -41,6 +42,22 @@ h4 {
   font-weight: 400;
 }
 
+#work h1 {
+  text-align: center;
+}
+
+#about h1{
+  text-align: center;
+}
+
+#mystory h2{
+  text-align: center;
+}
+
+#contact h2 {
+  text-align: center;
+}
+
   /* Image Styling */
 
 img {
@@ -50,29 +67,29 @@ img {
   /* Link Styling */
 
 a{
-    color: #352DEA;
+    color: #000000;
     text-decoration: none;
 }
 
 a:visited{
-    color:#352DEA;
+    color: #000000;
 }
 a:hover,
 a:focus{
-    color: #219896;
-    text-decoration: underline;
+    color: #467C86;
+    text-decoration: none;
 
 }
 
 a:active{
-    color: #219896;
+    color: #467C86;
 }
 
 /* Button Styling */
 
 .button.readmore {
     display: inline-block;
-    background-color: #299896;
+    background-color: #197574;
     color: #ffffff;
     font-weight: 400;
     padding: 10px;
@@ -88,7 +105,7 @@ a:active{
 
 .button.cv{
     display: inline-block;
-    background-color: #989d9e;
+    background-color: #197574;
     color: #ffffff;
     font-weight: 400;
     padding: 10px;
@@ -101,6 +118,7 @@ a:active{
     opacity: 0.8;
     text-decoration: none;
 }
+
 
 .button.email{
     display: inline-block;
@@ -117,3 +135,150 @@ a:active{
     opacity: 0.8;
     text-decoration: none;
 }
+
+/* Header*/
+
+
+header{
+  background-color: #e0e0e0;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  box-shadow:7px 7px 19px 0px rgba(50, 50, 50, 0.52);
+}
+
+.socialmedia {
+  display: inline-block;
+}
+
+/* Layout styling */
+
+.container {
+  padding: 0 15px
+}
+
+.row {
+  margin: 25px 0;
+}
+
+#work .row { 
+  padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; 
+}
+
+/* Navigation Bar */
+
+.logo {
+  max-width: 250px;
+  margin: 0 auto;
+  display: block;
+}
+
+nav {
+  display: inline-block;
+  width: 100%;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+nav > ul > li > a:visited {
+}
+
+nav > ul > li > a:hover {
+  color: #197574
+}
+
+nav > ul > li > a:active {
+
+}
+
+/* Footer Section */
+
+#contact {
+  background: #EBEBEB;
+  padding: 10px;
+}
+
+.social-media {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.social-media a {
+  display: inline-block;
+  width: 50 px;
+  height: auto;
+  margin: 0 5px;
+}
+
+.social-media svg {
+  width: 100%;
+  height: 100%
+}
+
+.mailsection {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+/* Hero Section */
+
+#hero {
+  background-color: #EBEBEB;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%
+}
+
+#hero h1 {
+  color: #000000;
+}
+
+#hero p{
+  font-size: 25px;
+  text-align: center;
+  color: #000000; 
+}
+
+/* HomeAdvice */
+
+.headerimage{
+  padding: 50px 0;
+}
+
+.whitebox {
+  background-color: #ffffff ;
+  padding: 100px 70px;
+}
+
+.bluebox {
+  background-color: #467C86;
+  padding: 100px 70px
+}
+
+.container1 {
+  width: 80%;
+  margin: auto;
+}
+
+.projectbackground {
+  background-color: #EBEBEB;
+}
+
+.container1 h2 {
+  text-align: center;
+  margin-top: -50px;
+}
+
