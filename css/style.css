@@ -6,6 +6,9 @@ Section Color 1 (White): #FFFFFF
 Section Color 2 (Blue): #467C86
 */
 
+* {
+  box-sizing: border-box;
+}
 
 body {
     background-color: #ffffff;
@@ -218,7 +221,7 @@ nav > ul > li > a:active {
 
 .social-media a {
   display: inline-block;
-  width: 50 px;
+  width: 50px;
   height: auto;
   margin: 0 5px;
 }
