@@ -115,7 +115,6 @@ a:active{
     text-decoration: none;
 }
 
-
 .button.email{
     display: inline-block;
     background-color: #197574;
@@ -356,13 +355,12 @@ Medium devices (640px and larger)
     margin-top: 50px;
   }
 
-  body {
-    font-size: 14px;
-  }
-
-
   .col-md-6 {
     width: 50%;
+  }
+
+  .col-md-12 {
+    width: 100%;
   }
 
   [class*="col-"] {
@@ -383,9 +381,6 @@ Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
 
-  body {
-    font-size: 18px;
-  }
 
   .col-lg-7 {
     width: 58.33%;
@@ -395,11 +390,20 @@ Large devices (1024px or larger)
     width: 41.66%;
   }
 
-  container {
+  .col.lg-12 {
+    width: 100%;
+  }
+
+  .container {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }
+
+  .extra-padding-left {
+    padding-left: 20px;
+  }
+
 }
 
 /* ==============================
