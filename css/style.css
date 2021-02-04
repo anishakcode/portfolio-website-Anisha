@@ -100,7 +100,10 @@ a:active{
 }
 
 .button.cv{
-    display: inline-block;
+    display: block;
+    width: 200px;
+    margin: 0px auto;
+    text-align: center;
     background-color: #197574;
     color: #ffffff;
     font-weight: 400;
@@ -233,6 +236,12 @@ nav > ul > li > a:active {
 .mailsection {
   text-align: center;
   padding-bottom: 50px;
+}
+
+#profilepicture {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Hero Section */
@@ -390,7 +399,7 @@ Large devices (1024px or larger)
     width: 41.66%;
   }
 
-  .col.lg-12 {
+  .col-lg-12 {
     width: 100%;
   }
 
@@ -401,9 +410,25 @@ Large devices (1024px or larger)
   }
 
   .extra-padding-left {
-    padding-left: 20px;
+    padding-left: 100px;
   }
 
+  .skills-tools {
+    background: #F5F5F5;
+  }
+
+  .button.cv{
+    display: block;
+    float: left;
+    width: 200px;
+    margin: 0px auto;
+    background-color: #197574;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid;
+    transition: 0.2s opacity;
 }
 
 /* ==============================
